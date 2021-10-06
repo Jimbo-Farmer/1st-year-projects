@@ -1,0 +1,124 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+main, header {
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    
+    margin: 48px auto;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    display: inline-block;
+    color: black;
+    padding: 4px 16px;
+    margin: 16px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid rgb(216, 241, 233);
+}
+
+.links a:hover {
+    color: white;
+    background-color: #202020;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border: 1px solid pink;
+    border-collapse: collapse;
+}
+
+td, th {
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
+    border: 1px solid black;
+    width: 40%;
+    padding: 3px;
+
+}
+
+tr:nth-child(2n){
+    background-color: rgb(216, 241, 233);
+}
+
+td:nth-child(3){
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    background-image: url("Icons/Screenshot\ Icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.open {
+    position: fixed;
+    height: 100%;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: auto;
+    background-image: unset;
+    background-color: rgba(50, 50, 50, 0.9);
+    animation: expand 0.3s;   
+    animation-timing-function: ease-out; 
+}
+
+@keyframes expand {
+    0% {transform: scale(0);} 
+    100% {transform: scale(1);}
+}
+
+.open .screenshot {
+    max-height: 80vh;
+    max-width: 80vw;
+    display: unset;
+    border: 10px solid white;
+    pointer-events: none;
+}

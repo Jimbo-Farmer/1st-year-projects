@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Farmer - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Noroff FEU 1st Year Projects</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Semester Project 1 - Community Science Museum</h2>
+            <div class="links"><a href="https://lucid-yonath-ecc9aa.netlify.app/index.html">Link to site</a><a href="https://github.com/Jimbo-Farmer/community-science-museum.git">Link to repo</a></div>
+            <figure><img src="Screenshots/CSM/CSM-New-Homepage-web.jpg" alt="screenshot from community science museum homepage"></figure>
+            <div>
+                <h3>Changelog</h3>
+                <table>
+                    <tr>
+                        <th>Change Made</th>
+                        <th>Reason for Change</th>
+                        <th>Screenshot</th>
+                    </tr>
+                    <tr>
+                        <td>Ids have been added to contact form inputs</td>
+                        <td>These were missing before</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/CSM/Contact-form-ids.jpg" alt="Screenshot showing form code complete with IDs"></div></td>
+                    </tr>
+                    <tr>
+                        <td>Form validation has been added to the contact form</td>
+                        <td>Blank forms and form fields can no longer be submitted</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/CSM/CSM Contact from validation shot.png" alt="Screenshot showing form and error messages"></div></td>
+                    </tr>
+                    <tr>
+                        <td>Changed background from black to dark grey (#202020)</td>
+                        <td>Reduces some of the harshness that the high contrast previously resulted in</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/CSM/Bg-color-change-web.jpg" alt="Screenshot showing the get involved page before and after the colour change"></div></td>
+                    </tr>
+                    <tr>
+                        <td>Removed final media query grid layouts (those that were for screen widths greater than 1550px)</td>
+                        <td>These layouts resulted in pages filled with content from screen edge to screen edge, which on larger screens was a bit overwhelming</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/CSM/CSM-layout-change-web.jpg" alt="Screenshot showing the home page before and after the layout change"></div></td>
+                    </tr>
+                    <tr>
+                        <td>Increased the grid gap from 6px to 18px</td>
+                        <td>This provides a little more clarity and makes it easier to scan through content</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/CSM/Grid-gap-change-web.jpg" alt="Screenshot of home page before and after the gid gap change"></div></td>
+                    </tr>
+                    <tr>
+                        <td>Main title now links to home</td>
+                        <td>Most users are familiar with this feature from other sites and therefore expect it</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/CSM/title-links-to-home.jpg" alt="Screenshot of code showing main title in anchor tag"></div></td>
+                    </tr>
+                    <tr>
+                        <td>H1 and H2 sizes increased for larger (>768px) screens</td>
+                        <td>This makes it easier for the user to know where they are and to scan through page content</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/CSM/Grid-gap-change-web.jpg" alt="Screenshot of home page before and after heading size change"></div></td>
+                    </tr>
+                    <tr>
+                        <td>Purple removed from links in navbar hover state and links on home page</td>
+                        <td>It wasn't very pretty as there is already a lot of colour on the page</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/CSM/purple-removed-web.jpg" alt="Screenshot of home page before and after removing purple backgrounds"></div></td>
+                    </tr>
+                    <tr>
+                        <td>Contact form submit button changed styling and added hover and focus styles</td>
+                        <td>It looks prettier and provides a better user experience</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/CSM/form-cta.jpg" alt="Image of old and new form submit buttons"></div></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h2>Cross-Course Project - GameHub</h2>
+            <figure><img src="" alt="screenshot from GameHub homepage"></figure>
+            <div>
+                <table>
+                    <tr>
+                        <th>Change Made</th>
+                        <th>Reason for Change</th>
+                        <th>Screenshot</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h2>Project Exam 1 - Transform Tomorrow</h2>
+            <figure><img src="Screenshots/TT/TT Homepage Screenshot.jpg" alt="screenshot from transform tomorrow homepage"></figure>
+            <div>
+                <table>
+                    <tr>
+                        <th>Change Made</th>
+                        <th>Reason for Change</th>
+                        <th>Screenshot</th>
+                    </tr>
+                    <tr>
+                        <td>Added a footer</td>
+                        <td>Makes the pages feel a bit more complete</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Added 'back to top' button to footer using code found <a href="https://stackoverflow.com/questions/15935318/smooth-scroll-to-top">here</a></td>
+                        <td>Provides easy navigation to the top of the page</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Added a quote to the footer which is randomly selected from a list of quotes</td>
+                        <td>This seemed like a nice way to end each page and there was not much else to put in the footer due to small number of already easily accessible links</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Background colour was made lighter</td>
+                        <td>This is a more bright and optimistic colour which I feel better fits the tone of the site, and can be used as there are no longer any areas where I want to use white text on top of this background</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Added CSS variables for font sizes and colours</td>
+                        <td>Changes to colour and font size can now be made across the whole site much more easily</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="javascript.js"></script>
+</html>
