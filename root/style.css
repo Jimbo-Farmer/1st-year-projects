@@ -12,6 +12,10 @@ main, header {
     margin: auto;
 }
 
+.subtitle {
+    font-size: 1.5rem;
+}
+
 section {
     
     margin: 48px auto;
@@ -36,7 +40,6 @@ h2 {
     margin: 16px;
     font-size: 1.5rem;
     text-decoration: none;
-    text-transform: capitalize;
     border: 1px solid rgb(216, 241, 233);
 }
 
@@ -48,13 +51,14 @@ h2 {
 h3 {
     text-align: center;
     font-size: 1.5rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 table {
     width: 100%;
     border: 1px solid pink;
     border-collapse: collapse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 td, th {
@@ -76,6 +80,10 @@ td:nth-child(3){
 
 figure img {
     width: 100%;
+}
+
+figure {
+    margin: 16px 0;
 }
 
 

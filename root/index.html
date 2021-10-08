@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>James Farmer - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
     <header>
         <h1>Noroff FEU 1st Year Projects</h1>
+        <p class="subtitle">James Farmer Oct20 FT</p>
     </header>
     <main>
         <section>
             <h2>Semester Project 1 - Community Science Museum</h2>
-            <div class="links"><a href="https://lucid-yonath-ecc9aa.netlify.app/index.html">Link to site</a><a href="https://github.com/Jimbo-Farmer/community-science-museum.git">Link to repo</a></div>
+            <div class="links"><a href="https://lucid-yonath-ecc9aa.netlify.app/index.html">Link to Site</a><a href="https://github.com/Jimbo-Farmer/community-science-museum.git">Link to Repo</a></div>
             <figure><img src="Screenshots/CSM/CSM-New-Homepage-web.jpg" alt="screenshot from community science museum homepage"></figure>
             <div>
-                <h3>Changelog</h3>
+                <h3>Changelog:</h3>
                 <table>
                     <tr>
                         <th>Change Made</th>
@@ -79,9 +81,10 @@
         </section>
         <section>
             <h2>Cross-Course Project - GameHub</h2>
-            <div class="links"><a href="https://competent-ardinghelli-456814.netlify.app/index.html">Link to site</a><a href="https://github.com/Jimbo-Farmer/gamehub-jf.git">Link to repo</a></div>
+            <div class="links"><a href="https://competent-ardinghelli-456814.netlify.app/index.html">Link to Site</a><a href="https://github.com/Jimbo-Farmer/gamehub-jf.git">Link to Repo</a></div>
             <figure><img src="Screenshots/GH/Gamehub-homepage-web.jpg" alt="screenshot from GameHub homepage"></figure>
             <div>
+                <h3>Changelog:</h3>
                 <table>
                     <tr>
                         <th>Change Made</th>
@@ -96,21 +99,47 @@
                     <tr>
                         <td>Removed 'mini-cart' from checkout page</td>
                         <td>This was superfluous as the mini cart links to the checkout page and displays information which is already available on the checkout page</td>
-                        <td></td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/GH/mini-cart-web.jpg" alt="Before and after checkout page"></div></td>
                     </tr>
                     <tr>
                         <td>Items can now be removed from the cart on the checkout page</td>
                         <td>This is basic functionality that users expect</td>
                         <td><div class="modal"><img class="hidden screenshot" src="Screenshots/GH/remove-item.gif" alt="Gif showing items being removed"></div></td>
                     </tr>
+                    <tr>
+                        <td>Main background changed to very dark grey (#101010)</td>
+                        <td>This provides a little bit of contrast between interactive content such as game cards and the background</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/GH/bg-color-web.jpg" alt="Before and after background colour change"></div></td>
+                    </tr>
+                    <tr>
+                        <td>Centered game info on game details page</td>
+                        <td>It's more natural to have content centered on the page</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/GH/game-info-web.jpg" alt="Game info page before and after changes"></div></td>
+                    </tr>
+                    <tr>
+                        <td>Style changes made to sell page</td>
+                        <td>The form is a little more presentable and an image has been added for larger screens</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/GH/sell-page-before-after.jpg" alt="Sell page before and after style changes"></div></td>
+                    </tr>
+                    <tr>
+                        <td>Selling a game requires the user to be logged in</td>
+                        <td>This is standard for marketplace sites. Local storage is used to check whether the user is logged in and the html is adjusted accordingly</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/GH/sell-page-login-required.jpg" alt="Shot of sell page when user is logged out"></div></td>
+                    </tr>
+                    <tr>
+                        <td>Form validation added to sell game form</td>
+                        <td>Form cannot be submitted if it is lacking vital information</td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/GH/sell-form-validation.gif" alt="Gif showing sell form validation"></div></td>
+                    </tr>
                 </table>
             </div>
         </section>
         <section>
             <h2>Project Exam 1 - Transform Tomorrow</h2>
-            <div class="links"><a href="https://condescending-saha-33c7ba.netlify.app/index.html">Link to site</a><a href="https://github.com/Jimbo-Farmer/Project-Exam-V2.git">Link to repo</a></div>
+            <div class="links"><a href="https://condescending-saha-33c7ba.netlify.app/index.html">Link to Site</a><a href="https://github.com/Jimbo-Farmer/Project-Exam-V2.git">Link to Repo</a></div>
             <figure><img src="Screenshots/TT/TT-Homepage-Screenshot.jpg" alt="screenshot from transform tomorrow homepage"></figure>
             <div>
+                <h3>Changelog:</h3>
                 <table>
                     <tr>
                         <th>Change Made</th>
@@ -135,12 +164,12 @@
                     <tr>
                         <td>Background colour was made lighter</td>
                         <td>This is a more bright and optimistic colour which I feel better fits the tone of the site, and can be used as there are no longer any areas where I want to use white text on top of this background</td>
-                        <td><div class="modal"><img class="hidden screenshot" src="Image of homepage before and after colour change"></div></td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/TT/colour-change-web.jpg" alt="Image of homepage before and after colour change"></div></td>
                     </tr>
                     <tr>
                         <td>Added CSS variables for font sizes and colours</td>
                         <td>Changes to colour and font size can now be made across the whole site much more easily</td>
-                        <td></td>
+                        <td><div class="modal"><img class="hidden screenshot" src="Screenshots/TT/css-variables-added.jpg" alt="Image of homepage before and after colour change"></div></td>
                     </tr>
                 </table>
             </div>
